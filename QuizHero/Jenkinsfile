@@ -10,7 +10,7 @@ pipeline {
 
         stage('Clone Repo') {
             steps {
-                git branch: 'main', url: 'https://github.com/harikiran713/QuizHero.git'
+                git branch: 'main', url: 'https://github.com/dhanunjay407/quizhero.git'
             }
         }
 
